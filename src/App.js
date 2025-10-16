@@ -4,7 +4,7 @@ import L from 'leaflet';
 import 'leaflet/dist/leaflet.css';
 import './App.css';
 
-const RALA_PNG_API = 'https://backend-vgio.onrender.com:10000/api/rala-png'; // Update to Render URL when deployed
+const RALA_PNG_API = 'https://backend-vgio.onrender.com/api/rala-png'; // Update to Render URL when deployed
 
 function App() {
   const [imageUrl, setImageUrl] = React.useState(null);
